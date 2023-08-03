@@ -1,7 +1,5 @@
 # Accessibility
 
-**Page owner:** [Laxmi Peketi](sree.peketi@microsoft.com)
-
 All non-text content (images, charts, videos) must include alternative text (alt text) to meet [**Microsoft Accessibility Standards**(MAS)](https://microsoft.sharepoint.com/sites/accessibility/SitePages/Microsoft-Accessibility-Standards-(MAS).aspx).
 At a minimum, include an introductory sentence that briefly describes the image, chart, or video.
 
