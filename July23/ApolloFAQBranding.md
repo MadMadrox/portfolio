@@ -1,7 +1,5 @@
 # Branding
 
-**Page owner:** [Laxmi Peketi](sree.peketi@microsoft.com)
-
 ## Product names
 
 While we don’t use trademark symbols, check correct spelling and capitalization for product, feature, and service names. You can find these names in the [**Cloud Style Guide A-Z list**](https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=25353).
