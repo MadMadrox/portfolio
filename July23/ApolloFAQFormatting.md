@@ -1,7 +1,5 @@
 # Formatting
 
-**Page owner:** [Laxmi Peketi](sree.peketi@microsoft.com)
-
 ## Table of contents
 
 - [Headers](#headers)
