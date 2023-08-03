@@ -24,7 +24,7 @@ Apollo solutions are displayed by two specific user actions in the Azure portal:
 
 ## Apollo authoring and publishing process
 
-![Authoring and publishing process]([images/APprocess.PNG](https://github.com/MadMadrox/portfolio/blob/main/July23/images/APprocess.png)
+![Authoring and publishing process](https://github.com/MadMadrox/portfolio/blob/main/July23/images/APprocess.png)
 
 ### To author an Apollo solution:
 
