@@ -1,7 +1,5 @@
 # Editorial process
 
-**Page owner:** [Laxmi Peketi](sree.peketi@microsoft.com)
-
 There is a two-business-day service level agreement (SLA). 
 
 Generally, articles are reviewed within 24 hours or less after it’s been in the queue for editors to
