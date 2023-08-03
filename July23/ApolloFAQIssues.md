@@ -1,7 +1,5 @@
 # Issues and errors
 
-**Page owner:** [Laxmi Peketi](sree.peketi@microsoft.com)
-
 ## Table of contents
 - [Conflicting file error](#conflicting-file-error)
 - [Fork the repository and access denied](#fork-the-repository-and-access-denied)
