@@ -1,7 +1,5 @@
 # Article Authoring Guidelines & Best Practices - The Apollo Playbook
 
-**Page owner:** [Laxmi Peketi](sree.peketi@microsoft.com)
- 
 ## Overview
 
 The Apollo playbook provides the resources to help you learn how to create the optimal customer experience when you write your support articles. 
