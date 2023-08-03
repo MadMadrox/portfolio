@@ -1,7 +1,5 @@
 # Solution types and structure
 
-**Page owner:** [Laxmi Peketi](sree.peketi@microsoft.com)
-
 ## Solution types
 A successful troubleshooting solution provides context and insights not already
 known to the customer. Context and evidence about what the issue was and where
