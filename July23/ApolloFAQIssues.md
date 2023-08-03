@@ -20,42 +20,42 @@ To discard your changes, save your changes locally (copy and paste to a text fil
 1. Open your PR in GitHub.
 2. Go to the **Files changed** tab.
 
-![File changed tab](./images/CFE_FilesChanged.png)
+![File changed tab](https://github.com/MadMadrox/portfolio/blob/main/July23/ConflictingFileError/CFE_FilesChanged.PNG)
 
 3. Select the ellipses (**...**) icon on the conflicting file, and select **Edit file**.
 
-![Edit file option](./images/CFE_EditFile.png)
+![Edit file option](https://github.com/MadMadrox/portfolio/blob/main/July23/ConflictingFileError/CFE_EditFile.png)
 
 4. Select all of your work and copy and paste it into an offline text file/editor (just to be safe).
 5. Go back to the **Conversation** tab of your PR.
 
-![Conversation tab](./images/CFE_Conversations.png)
+![Conversation tab](https://github.com/MadMadrox/portfolio/blob/main/July23/ConflictingFileError/CFE_Conversations.PNG)
 
 6. Scroll down to the bottom above the comments box, and you should see the conflicting file error message box.
 7. Click the **Resolve conflicts** button on the right.
 
-![Resolve conflicts button](./images/CFE_00_ResolveConflicts.png)
+![Resolve conflicts button](https://github.com/MadMadrox/portfolio/blob/main/July23/ConflictingFileError/CFE_00_ResolveConflicts.png)
 
 8. A window will open showing the errors in the file. Don't worry about deleting each error. Parts of old commits may have been duplicated.
 
-![Error 01](./images/CFE_01_Error01.png)
+![Error 01](https://github.com/MadMadrox/portfolio/blob/main/July23/ConflictingFileError/CFE_01_Error01.png)
 
-![Error 02](./images/CFE_02_Error02.png)
+![Error 02](https://github.com/MadMadrox/portfolio/blob/main/July23/ConflictingFileError/CFE_02_Error02.png)
 
 9. Select all of the content in the edit window and replace it by pasting the work you copied earlier.
 10. Click the **Mark as resolved** button at the top right.
 
-![Mark as resolved button](./images/CFE_03_MarkAsResolved.png)
+![Mark as resolved button](https://github.com/MadMadrox/portfolio/blob/main/July23/ConflictingFileError/CFE_03_MarkAsResolved.png)
 
 11. Click the green **Commit merge** button.
 
-![Commit merge button](./images/CFE_04_CommitMerge.png)
+![Commit merge button](https://github.com/MadMadrox/portfolio/blob/main/July23/ConflictingFileError/CFE_04_CommitMerge.png)
 
 12. Back on the **Conversation** tab of your PR, scroll down and make sure the conflicting file error is gone, and the file is valid for merge.
 
-![Conversation tab](./images/CFE_Conversations.png)
+![Conversation tab](https://github.com/MadMadrox/portfolio/blob/main/July23/ConflictingFileError/CFE_Conversations.PNG)
 
-![No more conflicts](./images/CFE_05_NoError.png)
+![No more conflicts](https://github.com/MadMadrox/portfolio/blob/main/July23/ConflictingFileError/CFE_05_NoError.png)
 
 
 Return to [Issues and errors: Table of contents](#table-of-contents).
