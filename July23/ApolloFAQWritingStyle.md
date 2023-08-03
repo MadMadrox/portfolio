@@ -1,7 +1,5 @@
 # Writing strategy and style
 
-**Page owner:** [Laxmi Peketi](sree.peketi@microsoft.com)
-
 Strategy and style present a solution with clear, concise content in a friendly, dynamic voice that engages the customer, while also meeting Microsoft style standards.
 
 - Use sentence case for headings. 
