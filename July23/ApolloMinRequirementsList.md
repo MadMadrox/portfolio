@@ -58,8 +58,8 @@ An article that includes only links to other documents is not acceptable.
 ### Additional guidance
 
 * **After committing, check for validation errors** like: 
-  * Blocking errors (such as errors in metadata or broken links) ![error image](https://azsupportdocs.azurewebsites.net/docs/elixir/assets/images/ApolloError.png) 
-  * Non-blocking warnings (such as potential spelling errors) ![warning image](https://azsupportdocs.azurewebsites.net/docs/elixir/assets/images/ApolloWarning.png)
+  * Blocking errors (such as errors in metadata or broken links) ![error image](https://github.com/MadMadrox/portfolio/blob/main/July23/images/ApolloError.png) 
+  * Non-blocking warnings (such as potential spelling errors) ![warning image](https://github.com/MadMadrox/portfolio/blob/main/July23/images/ApolloWarning.png)
 * **For longer articles, use headings (level 3 headers) or** [collapsible sections](https://azsupportdocs.azurewebsites.net/elixir/articles/AccordionSections.html) to guide the customer, including descriptive titles for each heading or section.
 * **Under each heading or within each collapsible section, format subheadings in bold font** if subsections (such as individual solutions) exceed a total of 5, or if subsections are complex.
 * **Add rich components** such as videos or images to enhance the customer experience.
