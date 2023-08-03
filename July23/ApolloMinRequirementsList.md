@@ -1,5 +1,4 @@
 # Minimum requirements checklist for Solutions 2.0 (Apollo) articles
-**Page owner:** [Laxmi Peketi](sree.peketi@microsoft.com)
 
 To make sure that your article is ready for review, check each of the following items and verify that your article meets the requirement. 
 - If your article doesn’t meet these minimum requirements, our editors will return the article to you. 
