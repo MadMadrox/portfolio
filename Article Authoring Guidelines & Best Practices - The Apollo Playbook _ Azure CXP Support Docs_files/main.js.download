@@ -1,0 +1,56 @@
+$(function () {
+  (function () {
+    /**
+     * [To be removed]
+     * Adding a temporary fix for AnchorJs based on this (Github merge)[https://github.com/dotnet/docfx/pull/6991]
+     *
+     * Remove all anchors links created by anchorJS v4.3.0 within docfx.
+     */
+    anchors.removeAll();
+
+    // Setup new options such that the anchors are only visible if the user hovers
+    anchors.options = {
+      placement: "left",
+      visible: "hover",
+    };
+    anchors.add(
+      "article h2:not(.no-anchor), article h3:not(.no-anchor), article h4:not(.no-anchor)"
+    );
+  })();
+
+  (function () {
+    const currentPath = window.location.pathname.substr(1); // "/pathname.html" => "pathname.html"
+    const yammerMetaElements = $("meta[property^='docfx:yammer']");
+    const yammerFeedIds = $.map(yammerMetaElements, (meta) => ({
+      url: new RegExp($(meta).attr("property").replace("docfx:yammer:", "")),
+      feedId: $(meta).attr("content"),
+    }));
+    const yammerFeed = yammerFeedIds.find((feed) =>
+      currentPath.match(feed.url)
+    );
+
+    yam.connect.embedFeed({
+      container: "#yammer-page-feed",
+      network: "microsoft.com",
+      feedType: "open-graph",
+      feedId: yammerFeed.feedId,
+      config: {
+        use_sso: true,
+        defaultGroupId: parseInt(yammerFeed.feedId), // This has to be an integer to pre-select the group in which to post the comment
+        header: true,
+        footer: false,
+        showOpenGraphPreview: false,
+        defaultToCanonical: false,
+        hideNetworkName: false,
+        promptText: "Provide Feedback about this page...",
+      },
+      objectProperties: {
+        url: "",
+        type: "page",
+        title: document.title,
+        fetch: false,
+        private: true,
+      },
+    });
+  })();
+});

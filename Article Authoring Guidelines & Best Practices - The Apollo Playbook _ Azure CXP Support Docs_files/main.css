@@ -1,0 +1,54 @@
+/* COLOR VARIABLES*/
+:root {
+  --header-bg-color: #5a468a;
+  --header-bg-color-hover: #433367;
+  --header-bg-color-active: #342954;
+  --header-ft-color: #fff;
+}
+
+html,
+body {
+  font-size: 13px;
+}
+
+/*
+* Navigation 
+*/
+.navbar-inverse {
+  background-color: var(--header-bg-color);
+  z-index: 100;
+}
+
+.navbar-inverse .navbar-brand.app-name {
+  padding: 14px 10px;
+  font-size: 15px;
+}
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-text,
+.navbar-inverse .navbar-brand.app-name {
+  color: var(--header-ft-color);
+  background-color: var(--header-bg-color);
+}
+
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-brand.app-name:hover,
+.navbar-inverse .navbar-brand.app-name:focus {
+  color: var(--header-ft-color);
+  background-color: var(--header-bg-color-hover);
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  color: var(--header-ft-color);
+  background-color: var(--header-bg-color-active);
+}
+
+/*
+* Sidebar on the right
+*/
+.affix {
+  height: unset;
+}

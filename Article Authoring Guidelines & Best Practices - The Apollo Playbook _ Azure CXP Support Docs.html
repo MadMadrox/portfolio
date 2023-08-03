@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Article Authoring Guidelines &amp; Best Practices - The Apollo Playbook | Azure CXP Support Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Article Authoring Guidelines &amp; Best Practices - The Apollo Playbook | Azure CXP Support Docs ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="https://azsupportdocs.azurewebsites.net/favicon.ico">
+    <style class="anchorjs"></style><link rel="stylesheet" href="./Article Authoring Guidelines &amp; Best Practices - The Apollo Playbook _ Azure CXP Support Docs_files/docfx.vendor.css">
+    <link rel="stylesheet" href="./Article Authoring Guidelines &amp; Best Practices - The Apollo Playbook _ Azure CXP Support Docs_files/docfx.css">
+    <link rel="stylesheet" href="./Article Authoring Guidelines &amp; Best Practices - The Apollo Playbook _ Azure CXP Support Docs_files/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+    <!-- Adding Yammer Feeds -->
+    <meta property="docfx:yammer:(asc|asp|internalASPASC)/.*" content="30072922112">
+    <meta property="docfx:yammer:.*" content="51137576960">
+    <!-- Adding ApplicationInsights -->
+    <script type="text/javascript">
+      !function(T,l,y){var S=T.location,k="script",D="instrumentationKey",C="ingestionendpoint",I="disableExceptionTracking",E="ai.device.",b="toLowerCase",w="crossOrigin",N="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"5",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[b](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,u,p,l;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][b]()]=i[1])}if(!e[C]){var r=e.endpointsuffix,o=r?e.location:null;e[C]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[D]||d[D]||"",u=s[C],p=u?u+"/v2/track":d.endpointUrl,(l=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=p,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),l.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,p)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:N,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(N,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(l,p))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(k);n.src=h;var e=y[w];return!e&&""!==e||"undefined"==n[w]||(n[w]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(k)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[I]&&!0!==s[I]){var c="onerror";t(["_"+c]);var u=T[c];T[c]=function(e,t,n,a,i){var r=u&&u(e,t,n,a,i);return!0!==r&&m["_"+c]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);function a(){y.onInit&&y.onInit(n)}(T[t]=n).queue&&0===n.queue.length?(n.queue.push(a),n.trackPageView({})):a()}(window,document,{
+      src: "https://js.monitor.azure.com/scripts/b/ai.2.min.js", // The SDK URL Source
+      // name: "appInsights", // Global SDK Instance name defaults to "appInsights" when not supplied
+      // ld: 0, // Defines the load delay (in ms) before attempting to load the sdk. -1 = block page load and add to head. (default) = 0ms load after timeout,
+      // useXhr: 1, // Use XHR instead of fetch to report failures (if available),
+      crossOrigin: "anonymous", // When supplied this will add the provided value as the cross origin attribute on the script tag
+      // onInit: null, // Once the application insights instance has loaded and initialized this callback function will be called with 1 argument -- the sdk instance (DO NOT ADD anything to the sdk.queue -- As they won't get called)
+      cfg: { // Application Insights Configuration
+          instrumentationKey: "01dbe778-18a6-4bb3-b472-b40b8cd53926",
+          autoTrackPageVisitTime: true
+          /* ...Other Configuration Options... */
+      }});
+    </script>
+  <script src="./Article Authoring Guidelines &amp; Best Practices - The Apollo Playbook _ Azure CXP Support Docs_files/ai.2.min.js.download" crossorigin="anonymous"></script></head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand app-name" href="https://azsupportdocs.azurewebsites.net/index.html">
+                  Azure Support Docs
+              </a>    </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search" style="display: block;">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            <ul class="nav level1 navbar-nav">
+                <li class="active">
+                    <a href="https://azsupportdocs.azurewebsites.net/playbook/GettingStarted.html" name="playbook/toc.html" title="Playbook" class="active">Playbook</a>
+                </li>
+                <li>
+                    <a href="https://azsupportdocs.azurewebsites.net/advisor/articles/Overview.html" name="advisor/toc.html" title="Advisor">Advisor</a>
+                </li>
+                <li>
+                    <a href="https://azsupportdocs.azurewebsites.net/asc/articles/Overview.html" name="asc/toc.html" title="ASC">ASC</a>
+                </li>
+                <li>
+                    <a href="https://azsupportdocs.azurewebsites.net/asp/articles/Overview.html" name="asp/toc.html" title="ASP">ASP</a>
+                </li>
+                <li>
+                    <a href="https://azsupportdocs.azurewebsites.net/ava/articles/Overview.html" name="ava/toc.html" title="Ava">Ava</a>
+                </li>
+                <li>
+                    <a href="https://azsupportdocs.azurewebsites.net/compass/articles/00_01_CompassOnboardingOBJ_CompassOverview.html" name="compass/toc.html" title="Compass">Compass</a>
+                </li>
+                <li>
+                    <a href="https://azsupportdocs.azurewebsites.net/diagnosticrp/articles/Overview.html" name="diagnosticrp/toc.html" title="HelpRp">HelpRp</a>
+                </li>
+                <li>
+                    <a href="https://azsupportdocs.azurewebsites.net/elixir/articles/Overview.html" name="elixir/toc.html" title="Elixir">Elixir</a>
+                </li>
+                <li>
+                    <a href="https://azsupportdocs.azurewebsites.net/portal/articles/Overview.html" name="portal/toc.html" title="Portal">Portal</a>
+                </li>
+                <li>
+                    <a href="https://azsupportdocs.azurewebsites.net/sonar/ProjectSonarIntroduction.html" name="sonar/toc.html" title="Sonar">Sonar</a>
+                </li>
+                <li>
+                    <a href="https://azsupportdocs.azurewebsites.net/airs/articles/AzureBootCamp.html" name="airs/toc.html" title="AIRS">AIRS</a>
+                </li>
+          </ul></div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb"><ul class="level1 breadcrumb"><li><a href="https://azsupportdocs.azurewebsites.net/playbook/GettingStarted.html">Playbook</a></li><li><a href="https://azsupportdocs.azurewebsites.net/playbook/EmpoweringCustomers.html">Empower Customers (Reduce IPD)</a></li><li><a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html">Article Authoring Guidelines &amp; Best Practices - The Apollo Standard</a></li></ul></div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"><div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear" style="display: none;"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="https://azsupportdocs.azurewebsites.net/playbook/GettingStarted.html" name="" title="General Information">General Information</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/GettingStarted.html" name="" title="Getting Started">Getting Started</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/KPIandGoalsGa.html" name="" title="KPIs and Goals for [Ga]">KPIs and Goals for [Ga]</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/NewToSupport.html" name="" title="New to Support">New to Support</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/SupportOKRs.html" name="" title="Support OKRs">Support OKRs</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/SemesterPlanning.html" name="" title="Semester Planning">Semester Planning</a>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/IncidentRateAndPlanning.html" name="" title="Incident Rate &amp; Planning">Incident Rate &amp; Planning</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/ForecastingAndBudgeting.html" name="" title="FY Forecasting and Budget planning">FY Forecasting and Budget planning</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/NIRbyACR.html" name="" title="Normalized Incident Rate by ACR">Normalized Incident Rate by ACR</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/IncidentRateReduction.html" name="" title="Incident Rate Reduction Dashboard">Incident Rate Reduction Dashboard</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/NormalizedIR.html" name="" title="Normalized Incident Rate by Usage">Normalized Incident Rate by Usage</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/IncidentRateFAQs.html" name="" title="Incident Rate FAQs">Incident Rate FAQs</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/CSSOnboarding.html" name="" title="CSS Onboarding">CSS Onboarding</a>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/AzureSupportabilityChecklist.html" name="" title="Azure Supportability Checklist">Azure Supportability Checklist</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/AzureSupportabilityChecklistPrivatePreview.html" name="" title="Supportability Checklist for Private Preview Launch">Supportability Checklist for Private Preview Launch</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/SupportabilityChecklistPublicPreview.html" name="" title="Supportability Checklist for Public Preview Launch">Supportability Checklist for Public Preview Launch</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/AzureSupportabilityChecklistGA.html" name="" title="Supportability Checklist for GA Launch">Supportability Checklist for GA Launch</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/AzureSupportabilityChecklistFairfax.html" name="" title="Supportability Checklist for National Clouds">Supportability Checklist for National Clouds</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/Resources.html" name="" title="Resources">Resources</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/SupportabilityDashboards.html" name="" title="Supportability Dashboards">Supportability Dashboards</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/SupportabilityTools.html" name="" title="Supportability Tools">Supportability Tools</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/OtherEducationResources.html" name="" title="Education Resources">Education Resources</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/AzureRecognition.html" name="" title="Azure Recognition">Azure Recognition</a>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/JEDI_Supportability.html" name="" title="Support Parity">Support Parity</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/SovereignCloudsWikis.html" name="" title="Sovereign Cloud Deployment Guide">Sovereign Cloud Deployment Guide</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/JEDIExceptionsProcess.html" name="" title="Support Parity Exception Process">Support Parity Exception Process</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/GuideForClearedDRIs.html" name="" title="Non-tented Guide For Cleared DRIs">Non-tented Guide For Cleared DRIs</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/CustomerSurvey.html" name="" title="Customer Support Survey">Customer Support Survey</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/ImproveCSATConnectWithCustomers.html" name="" title="Connecting with Customers">Connecting with Customers</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="https://azsupportdocs.azurewebsites.net/playbook/CustomerSupportProcesses.html" name="" title="Support Practices">Support Practices</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/DailySupportTriage.html" name="" title="Daily Support Triage">Daily Support Triage</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/Ridealongs.html" name="" title="Ridealong">Ridealong</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/CaseReview.html" name="" title="Case Reviews">Case Reviews</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/UsingAva.html" name="" title="Collaborate Using Ava">Collaborate Using Ava</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/CSSessions.html" name="" title="Customer Success Sessions">Customer Success Sessions</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/GitHubCustomerIssues.html" name="" title="Handling GitHub Issues">Handling Git<wbr>Hub Issues</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/ImprovementCategories.html" name="" title="Improvement Backlog Categories">Improvement Backlog Categories</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/RootCauseTreeGuidance.html" name="" title="Root Cause Tree Guidance">Root Cause Tree Guidance</a>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/ErrorMessageIntro.html" name="" title="Error message improvement">Error message improvement</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/ErrorMessageControlPlane.html" name="" title="Control plane">Control plane</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/SupportReviewOverview.html" name="" title="Support Reviews">Support Reviews</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/SupportReviewReporting.html" name="" title="Intro to the Support Reviews">Intro to the Support Reviews</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/SupportReviewTemplate.html" name="" title="Review Template">Review Template</a>
+                                    </li>
+                              </ul>
+                          </li>
+                    </ul>
+                </li>
+                <li class="active in">
+                    <span class="expand-stub"></span>
+                    <a href="https://azsupportdocs.azurewebsites.net/playbook/EmpoweringCustomers.html" name="" title="Empower Customers (Reduce IPD)" class="active">Empower Customers (Reduce IPD)</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/shsImproveShSIPD.html" name="" title="Improve ShS and IPD">Improve Sh<wbr>S and IPD</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/bonsaiActionableGuidance.html" name="" title="Bonsai Overview">Bonsai Overview</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/shsSolutionsOverview.html" name="" title="Solutions Types">Solutions Types</a>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/selfhelpArticles/articlesOverview.html" name="" title="Self-help Articles Overview">Self-help Articles Overview</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/selfhelpArticles/articlesTypes.html" name="" title="Self-help articles types">Self-help articles types</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/selfhelpArticles/articlesCoverage.html" name="" title="Provide self-help for all support topics">Provide self-help for all support topics</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/selfhelpArticles/articlesImproveQuality.html" name="" title="Improve Self-help article quality">Improve Self-help article quality</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/selfhelpArticles/articlesIncreaseEngagement.html" name="" title="Drive Self-help article engagement">Drive Self-help article engagement</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/selfhelpArticles/articlesAdditionalGuidance.html" name="" title="Guidance for long or generic articles">Guidance for long or generic articles</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li class="active in">
+                              <span class="expand-stub"></span>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html" name="" title="Article Authoring Guidelines &amp; Best Practices - The Apollo Standard" class="active">Article Authoring Guidelines &amp; Best Practices - The Apollo Standard</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloBestPractices.html" name="" title="Authoring Best Practices">Authoring Best Practices</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloMinRequirementsList.html" name="" title="Apollo Minimum Requirements Checklist">Apollo Minimum Requirements Checklist</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/Apollo_Solution_TypesStructure.html" name="" title="Solution types &amp; structure">Solution types &amp; structure</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQWritingStyle.html" name="" title="Writing Strategy and Style">Writing Strategy and Style</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQFormatting.html" name="" title="Formatting">Formatting</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQLinks.html" name="" title="Working with links">Working with links</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQBranding.html" name="" title="Branding">Branding</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQAccessibility.html" name="" title="Accessibility">Accessibility</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQIssues.html" name="" title="Issues and Errors">Issues and Errors</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/Apollo_EditorialProcess.html" name="" title="Editorial process">Editorial process</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/diagnostics/diagnosticsOverview.html" name="" title="Diagnostics Overview">Diagnostics Overview</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/diagnostics/diagnosticsFixCurrent.html" name="" title="Fix issues with existing diagnostics">Fix issues with existing diagnostics</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/diagnostics/diagnosticsEnableExising.html" name="" title="Enable existing diagnostics in Portal">Enable existing diagnostics in Portal</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/diagnostics/diagnosticsCreateNew.html" name="" title="Create new diagnostics">Create new diagnostics</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/supportTopicTree/supportTopicTreeOverview.html" name="" title="Improve Support Topic Tree">Improve Support Topic Tree</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/supportTopicTree/supportTopicKeyConcepts.html" name="" title="Key Concepts and Tools">Key Concepts and Tools</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/supportTopicTree/supportTopicGuidance.html" name="" title="Support Topic Tree Guidance">Support Topic Tree Guidance</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/supportTopicTree/supportTopicTreesImprovement.html" name="" title="How to improve support topic trees">How to improve support topic trees</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/metrics/metricsOverview.html" name="" title="Self-help Success and Coverage Metrics">Self-help Success and Coverage Metrics</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/metrics/selfhelpSucessMetricOverview.html" name="" title="Self-help Success metric details">Self-help Success metric details</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/metrics/coverageOverview.html" name="" title="Solutions Coverage metric details">Solutions Coverage metric details</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/selfHelpSuccess/metrics/supportTopicAccuracyMetric.html" name="" title="Support Topic Accuracy metric">Support Topic Accuracy metric</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/BuildAzureAdvisorRecommendations.html" name="" title="Build Advisor Recommendations">Build Advisor Recommendations</a>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>Service Health</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/ServiceHealth.html" name="" title="Service Health">Service Health</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/ResourceHealth.html" name="" title="Resource Health">Resource Health</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/BRAIN.html" name="" title="BRAIN">BRAIN</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="https://azsupportdocs.azurewebsites.net/playbook/ImproveAssistedSupport.html" name="" title="Improve Assisted Support (Increase CSAT)">Improve Assisted Support (Increase CSAT)</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/BuildASCDataExplorerExtensions.html" name="" title="Build ASC Data Explorer Extensions">Build ASC Data Explorer Extensions</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/BuildASCInsights.html" name="" title="Build ASC Insights">Build ASC Insights</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/NewFeedbackExperience_RepairItems.html" name="" title="Actively Triage ASC Repair Items">Actively Triage ASC Repair Items</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/ASC_KPIs.html" name="" title="Partner Diagnostic KPIs">Partner Diagnostic KPIs</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/Support_Diagnostics_for_LX.html" name="" title="Ensure diagnostic parity for LX clouds">Ensure diagnostic parity for LX clouds</a>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/CustomerRaisedIncidents.html" name="" title="Handling CRIs">Handling CRIs</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="https://azsupportdocs.azurewebsites.net/playbook/AzureCRIProcess.html" name="" title="Azure Customer Raised Incident Process">Azure Customer Raised Incident Process</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/SupportEngineerSatisfaction.html" name="" title="Improve Support Engineer Satisfaction">Improve Support Engineer Satisfaction</a>
+                          </li>
+                          <li>
+                              <a href="https://azsupportdocs.azurewebsites.net/playbook/Advanced%20Training.html" name="" title="Advanced (Level 300) Training for CSS">Advanced (Level 300) Training for CSS</a>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="article-authoring-guidelines--best-practices---the-apollo-playbook">Article Authoring Guidelines &amp; Best Practices - The Apollo Playbook</h1>
+
+<h2 id="overview"><a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#overview" style="font-style: normal; font-variant: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Overview</h2>
+<p>The Apollo playbook provides the resources to help you learn how to create the optimal customer experience when you write your support articles.</p>
+<p>The playbook provides <a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloBestPractices.html">authoring best practices</a> and <a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#authoring-guidelines">authoring guidelines</a> for writing style &amp; strategy, formatting, branding, and accessibility in alignment with the Microsoft Style Guide. The authoring guidelines also provide tips for working with Markdown and support for new authors learning about the Elixir→GitHub→Portal publishing experience.</p>
+<p>Apollo articles are part of the Solution 2.0 initiative. Learn more at <a href="https://azsupportdocs.azurewebsites.net/elixir/articles/Solutions2Overview.html">Solution 2.0 Overview</a>.</p>
+<h2 id="what-is-an-apollo-article"><a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#what-is-an-apollo-article" style="font-style: normal; font-variant: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>What is an Apollo article?</h2>
+<p>Apollo is an insightful, powerful, self-help experience for our customers and support engineers. By introducing a single, customizable canvas, Apollo lets you create a solution that specifically targets the customer's issue and expedites the troubleshooting experience.</p>
+<p>Apollo is a single solution that encompasses all solution types under one canvas, so that you don't need to author diagnostics in a separate config tool.</p>
+<p>Apollo lets you combine text, images, diagnostics, charts, videos, and relevant data to build experiences that truly help customers to solve the issue themselves.</p>
+<p>Apollo solutions are displayed by two specific user actions in the Azure portal:</p>
+<ul>
+<li>When the user selects Diagnose and Solve under the context of a resource</li>
+<li>When the user selects a support topic in step 2 of the case submission workflow</li>
+</ul>
+<h2 id="apollo-authoring-and-publishing-process"><a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#apollo-authoring-and-publishing-process" style="font-style: normal; font-variant: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Apollo authoring and publishing process</h2>
+<p><img src="./Article Authoring Guidelines &amp; Best Practices - The Apollo Playbook _ Azure CXP Support Docs_files/APprocess.png" alt="Authoring and publishing process"></p>
+<h3 id="to-author-an-apollo-solution"><a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#to-author-an-apollo-solution" style="font-style: normal; font-variant: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>To author an Apollo solution:</h3>
+<ol>
+<li>Start at <a href="https://elixir.microsoft.com/solutions/apollosolutions?supportscope=4e65a864-3a49-0120-c059-f7310570b8dc" target="_blank"><strong>Elixir</strong>→<strong>Solution management</strong>→<strong>Apollo solutions</strong></a>.</li>
+<li>Create a new Apollo article, or copy from an existing article in the list.</li>
+<li>Fill out the metadata and the content using our <a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#authoring-guidelines">authoring guidelines</a> and <a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloBestPractices.html">best practices</a>.
+    <ul>
+    <li>Add rich solutions to your Apollo article</li>
+        <ul>
+        <li>Copy and paste from templates.</li>
+        <li>Use <strong>Add solution</strong> to automatically build solution components.</li>
+        </ul>
+    </ul>
+</li><li>Preview your article before submitting for editorial review.</li>
+    <ul>
+    <li>Rich components can be previewed in the portal after the article is submitted for review.</li>
+    </ul>
+<li>The review team works with a 2-day SLA, but often publish or return an article for correction sooner than 2 days. After some time has passed, check on your article's status in Elixir to see if it was published or needs corrections.</li>
+    <ul>
+    <li>The editors may send a request for corrections if your article doesn't meet the <a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloMinRequirementsList.html">Apollo minimum requirements</a>.</li>
+    <li>You may have to correct the article numerous times until it meets the minimum requirements to be published.</li>
+    </ul>
+<li>After an article is published, the status will change on the table in Elixir.</li>
+    <ul>
+    <li>Track the article's SHS rate and adjust as needed based on Bonsai recommendations or the guidance of <a href="ttps://azsupportdocs.azurewebsites.net/playbook/articles/BestPractices.html" target="_blank">best practices</a>.</li>
+    </ul>
+</ol>
+<h2 id="validation-rules-and-checklist"><a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#validation-rules-and-checklist" style="font-style: normal; font-variant: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Validation rules and checklist</h2>
+<p>To ensure that your self-help articles meet validation rules in Elixir and the Microsoft style guidelines:</p>
+<ul><li>Use the latest <a href="https://github.com/Azure/SelfHelpContent/blob/master/documents/SelfHelp-Solution-template/apollo-markdown-template.md" target="_blank">Apollo template</a>.</li>
+<li>Follow the <a href="https://azsupportdocs.azurewebsites.net/elixir/articles/Rules.html"><strong>Validation rules and checklist</strong></a>.</li>
+    <ul><li>The <strong>Validation rules and checklist</strong> is a summary of some of the most important aspects of the <a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#authoring-guidelines">Authoring guidelines</a> in the Apollo playbook. Review the subpages of this playbook for more details and examples.</li>
+    <li><strong>Examples:</strong></li>
+        <ul><li>Use contractions (Use <strong>don't</strong> instead of <strong>do not</strong>; <strong>you'll</strong> instead of <strong>you will</strong>).</li>
+        <li>Bold all UI elements. Don't overuse bold in text.</li>
+        <li>Enclose error messages in text in quotation marks</li>
+        <li>Articles must meet the <a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloMinRequirementsList.html">Apollo minimum requirements</a> or they will be rejected by the review team.</li>
+        </ul>
+    </ul>
+</ul>
+<h2 id="authoring-guidelines"><a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#authoring-guidelines" style="font-style: normal; font-variant: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Authoring guidelines</h2>
+<p>You can use the subpages in this Apollo playbook to familiarize yourself with authoring best practices, the Apollo minimum requirements, and the concepts of voice, tone, and strategy of the Microsoft writing style. Support for new authors unfamiliar with the publishing process can also be found in the playbook's subpages.</p>
+<div class="table-responsive"><table class="table table-bordered table-striped table-condensed">
+<thead>
+<tr>
+<th>Subpage</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloBestPractices.html">Best Practices</a></td>
+<td>Best practices include:<ul><li>Following the <a href="https://github.com/Azure/SelfHelpContent/blob/master/documents/SelfHelp-Solution-template/apollo-markdown-template.md" target="_blank">Apollo template</a>.</li><li>Staying user-centric with your content.</li><li>Ensuring convenient scannability with your content.</li></ul><br>Visit the page to learn all the best practice tips.</td>
+</tr>
+<tr>
+<td><a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloMinRequirementsList.html">Apollo minimum requirements</a></td>
+<td>Provides a list of the necessary requirements and recommendations for authoring an article to meet the Apollo quality standards.</td>
+</tr>
+<tr>
+<td><a href="https://azsupportdocs.azurewebsites.net/playbook/Apollo_Solution_TypesStructure.html">Solution types &amp; structure</a></td>
+<td>Provides guidance on how to approach authoring an effective quality Apollo/Solutions 2.0 article.</td>
+</tr>
+<tr>
+<td><a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQWritingStyle.html">Writing style &amp; strategy</a></td>
+<td>Provides best practice tips for tone, using contractions, using the active voice and verbs, and using the correct verb tense in alignment with the Microsoft Style Guide.</td>
+</tr>
+<tr>
+<td><a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQFormatting.html">Formatting</a></td>
+<td>Provides best practice tips for formatting in Markdown in alignment with the Microsoft Style Guide and Apollo/Solution 2.0 standards. Also provides guidance for the best Markdown practices to make sure your content displays as intended in the Azure portal.</td>
+</tr>
+<tr>
+<td><a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQLinks.html">Working with links</a></td>
+<td>Provides best practice tips for working with links in alignment with the Microsoft Style Guide and Apollo/Solution 2.0 standards.</td>
+</tr>
+<tr>
+<td><a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQBranding.html">Branding</a></td>
+<td>Provides best practice tips for aligning with the Microsoft Style Guide's branding standards.</td>
+</tr>
+<tr>
+<td><a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQAccessibility.html">Accessibility</a></td>
+<td>Provides best practice tips for aligning with the Microsoft Style Guide's accessibility standards.</td>
+</tr>
+<tr>
+<td><a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQIssues.html">Issues and errors</a></td>
+<td>Provides support for common issues and errors an author may experience during the publishing process.</td>
+</tr>
+<tr>
+<td><a href="https://azsupportdocs.azurewebsites.net/playbook/Apollo_EditorialProcess.html">Editorial process</a></td>
+<td>Details the editorial process the review team practices to help authors understand the review process and publshing timeframe.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="articles-per-submission"><a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#articles-per-submission" style="font-style: normal; font-variant: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: normal; font-stretch: normal; font-size: 1em; line-height: inherit; font-family: anchorjs-icons; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Articles per submission</h2>
+<p>You can submit up to 10 articles per submission or pull request (PR).</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix" style="bottom: 70px;">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://msazure.visualstudio.com/One/_git/EngSys-Supportability-Docs?path=docs/playbook/ApolloFAQOverview.md&amp;version=GBmain&amp;line=1" class="contribution-link" target="_blank">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div> 
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div><ul class="level1 nav bs-docs-sidenav"><li><a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#overview">Overview</a></li><li><a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#what-is-an-apollo-article">What is an Apollo article?</a></li><li><a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#apollo-authoring-and-publishing-process">Apollo authoring and publishing process</a><ul class="level2 nav bs-docs-sidenav"><li><a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#to-author-an-apollo-solution">To author an Apollo solution:</a></li></ul></li><li><a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#validation-rules-and-checklist">Validation rules and checklist</a></li><li><a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#authoring-guidelines">Authoring guidelines</a></li><li><a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#articles-per-submission">Articles per submission</a></li></ul></div>
+              </nav> 
+              <div class="table-responsive"><table id="mytable" style="border:0;" cellspacing="0" cellpadding="0" class="table table-bordered table-striped table-condensed">
+                  <tbody><tr style="background-color:#fff">
+                      <td style="border:0;">
+                          <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                          </nav>
+                      </td>
+                  </tr>
+                  <tr style="background-color:#fff">
+                      <td style="border:0;">
+                          <script type="text/javascript" src="./Article Authoring Guidelines &amp; Best Practices - The Apollo Playbook _ Azure CXP Support Docs_files/platform_embed.js.download"></script>
+                            <div id="yammer-page-feed" style="height:500px;width:100%;"><iframe id="embed-feed" name="embed-feed" frameborder="none" scrolling="no" title="Yammer" src="./Article Authoring Guidelines &amp; Best Practices - The Apollo Playbook _ Azure CXP Support Docs_files/embed-feed.html" class="yj-embed-widget yj-embed-feed" style="border: 0px; overflow: hidden; min-height: 26px; height: 100%; width: 100%;"></iframe></div>
+                            <!-- Check file in ../styles/main.js, to see how the yammer plugin is rendered -->
+                      </td>
+                  </tr>
+              
+            </tbody></table></div></div>
+          </div>
+        </div>
+      </div>
+      
+      <footer style="display: none;">
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="https://azsupportdocs.azurewebsites.net/playbook/ApolloFAQOverview.html#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="./Article Authoring Guidelines &amp; Best Practices - The Apollo Playbook _ Azure CXP Support Docs_files/docfx.vendor.js.download"></script>
+    <script type="text/javascript" src="./Article Authoring Guidelines &amp; Best Practices - The Apollo Playbook _ Azure CXP Support Docs_files/docfx.js.download"></script>
+    <script type="text/javascript" src="./Article Authoring Guidelines &amp; Best Practices - The Apollo Playbook _ Azure CXP Support Docs_files/main.js.download"></script>
+  
+
+</body></html>
