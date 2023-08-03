@@ -1,5 +1,4 @@
 # Best practices for authoring solutions
-**Page Owner:** [Laxmi Peketi](sree.peketi@microsoft.com)
 
 These high-level best practices help you create solutions that provide the optimal customer experience and that meet Microsoft standards for style, scannability, formatting, branding, and accessibility. For more detailed instructions on these best practices, visit the rest of the pages in the [**Authoring guidelines**](ApolloFAQOverview.md) via the navigation bar to the left or the quick links at the bottom of this page.
 
