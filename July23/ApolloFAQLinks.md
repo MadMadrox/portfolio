@@ -1,8 +1,5 @@
 # Working with links
 
-**Page owner:** [Laxmi Peketi](sree.peketi@microsoft.com)
-
-
 Follow these guidelines when working with links in your articles:
 * In general, use the title of the article for your link text. 
 * Do not use [*Here*], [*this article*], [*follow these steps*], etc. 
